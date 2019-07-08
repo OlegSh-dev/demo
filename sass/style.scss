@@ -1,0 +1,37 @@
+$main-font: "Arial";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  &__logo {
+    margin-right: 50px;
+  }
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+  }
+}
+
+.about {
+  width: 1200px;
+  margin: 0 auto;
+  img {
+    width: 200px;
+    float: left;
+  }
+}
