@@ -347,3 +347,7 @@ body {
 
 .contributers__list--hide {
   display: none; }
+
+.img-roll img {
+  border-radius: 5px;
+  height: 450px; }
