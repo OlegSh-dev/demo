@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("#toggle-contributers").on("click", function() {
     $(".contributers__list").toggleClass("contributers__list--hide");
+    $(".btn-primary").toggleClass("active");
   });
   
   $('.img-roll').slick({
